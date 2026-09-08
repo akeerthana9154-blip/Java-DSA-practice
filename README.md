@@ -1,2 +1,2 @@
 # Java-DSA-practice
-"Daily Java + DSA practice logs"
+"Daily Java learning journey with notes, practice problems, and coding solutions."
