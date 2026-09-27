@@ -1,0 +1,56 @@
+                      ==============Integer Division and Double Division==================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int result=a/b;
+        System.out.println(result);
+        System.out.print((double)a/b);
+    }
+}
+
+                  =================Double to Integer Type Casting===============
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        double d=3.33;
+        int n=(int) d;
+        System.out.println(n);
+    }
+}
+
+                      ================Character to Integer Type Casting==============
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        char ch=sc.next().charAt(0);
+        int n=ch;
+        System.out.println(ch);
+        System.out.println(n);
+    }
+}
+
+                          ==============Double Input to Integer Type Casting=============
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        double d=sc.nextDouble();
+        int n=(int)d;
+        System.out.println(n);
+    }
+}
+
+                ================Integer to Double Type Casting for Percentage Calculation============
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        double d=(double)n/600*100;
+        System.out.println(d);
+    }
+}
