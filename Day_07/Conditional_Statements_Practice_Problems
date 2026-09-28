@@ -1,0 +1,84 @@
+                   ===========Check Whether a Number is Positive, Negative, or Zero===========
+
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>0){
+            System.out.println("Positive");
+        }else if(n<0){
+            System.out.println("Negative");
+        }else{
+            System.out.println("Zero");
+        }
+    }
+}
+
+                           ====================Check Marks and Display Grade============
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int marks=sc.nextInt();
+        if(marks<0 || marks>100){
+            System.out.println("Invalid");
+        }
+        else if(marks>90){
+            System.out.println("A");
+        }else if(marks>70){
+            System.out.println("B");
+        }
+        else if(marks>50){
+            System.out.println("C");
+        }else{
+            System.out.println("Fail");
+        }
+    }
+}
+
+                      ==========================Check Whether a Person is Eligible to Vote================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>=18){
+            System.out.println("Eligible");
+        }else{
+            System.out.println("not Eligible");
+        }
+    }
+}
+
+                         ======================Check Whether a Positive Number is Even===================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n>0){
+            if(n%2==0){
+            System.out.println("Number is +ve and even");
+        }else{
+            System.out.println("Invalid");
+        }
+    }
+    }
+
+    
+                           ======================Check Whether a Year is a Leap Year=========================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n%400==0 || n%4==0 && n%100!=0){
+            System.out.println("Leap year");
+        }else{
+            System.out.println("not Leap year");
+        }
+    }
+}
+
+
