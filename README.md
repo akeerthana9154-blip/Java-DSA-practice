@@ -11,4 +11,5 @@ Daily Java fundamentals and DSA practice, building toward a Java backend develop
 - Day_05: Operators
 - Day_06: Type_casting
 - Day_07: Conditional_Statements
+- Day_08: Switch
 
