@@ -1,0 +1,54 @@
+                          ====================Print Numbers from 1 to 100 using While Loop==============                 
+import java.util.*; 
+public class Main{ 
+    public static void main(String args[]){ 
+        int i=1; 
+        int n=100; 
+        while(i<=n){ 
+            System.out.println(i); 
+            i++; 
+        } 
+     
+    } 
+} 
+ 
+ 
+                          =====================Print Multiplication Table using For Loop==================
+import java.util.*; 
+public class Main{ 
+    public static void main(String args[]){ 
+        Scanner sc=new Scanner(System.in); 
+        int n=sc.nextInt(); 
+        for(int i=1;i<=10;i++){ 
+            System.out.println(n + "*" + i +"="+ n*i); 
+        } 
+    } 
+} 
+ 
+                       ==================Print Even Numbers from 1 to 50 using For Loop==================
+import java.util.*; 
+public class Main{ 
+    public static void main(String args[]){ 
+      Scanner sc=new Scanner(System.in); 
+      for(int i=1;i<=50;i++){ 
+          if(i%2==0){ 
+              System.out.println(i); 
+          } 
+      } 
+ 
+    } 
+} 
+ 
+                         =====================Ask the User Whether to Continue using Do-While Loop===================
+import java.util.*; 
+public class Main{ 
+    public static void main(String args[]){ 
+        Scanner sc=new Scanner(System.in); 
+        String s; 
+        do{ 
+            System.out.println("Do you want to continue?(yes/no)"); 
+            s=sc.next(); 
+        } 
+        while(s.equalsIgnoreCase("yes")); 
+    } 
+}                            
