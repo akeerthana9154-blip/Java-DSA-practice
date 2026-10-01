@@ -1,0 +1,53 @@
+                        =========================Break Statement==================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        for(int i=1;i<=20;i++){
+            if(i==15){
+                break;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+                       ==============================Continue Statement – Skip Even Numbers================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        for(int i=1;i<=20;i++){
+            if(i%2==0){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+
+                            ======================Continue Statement – Skip Multiples of 3=======================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        for(int i=1;i<=30;i++){
+            if(i%3==0){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+
+                       ======================Break Statement – Stop at a Number Divisible by 5 and 7=====================
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        for(int i=1;i<=100;i++){
+            if(i%7==0 && i%5==0){
+                break;
+            }
+            System.out.println(i);
+        }
+    }
+}
